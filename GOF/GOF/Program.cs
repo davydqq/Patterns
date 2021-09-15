@@ -1,4 +1,5 @@
 ﻿using GOF.Behavioural;
+using GOF.Structural;
 using System;
 
 namespace GOF
@@ -7,7 +8,7 @@ namespace GOF
     {
         static void Main(string[] args)
         {
-            IUsage strategy = new InterpreterPattern();
+            IUsage strategy = new DecoratorPattern();
             strategy.Usage();
         }
     }
